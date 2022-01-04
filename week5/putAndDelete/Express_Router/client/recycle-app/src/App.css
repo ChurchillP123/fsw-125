@@ -1,0 +1,26 @@
+.recycledItems {
+  display: flex;
+  flex-direction: column;
+  width:55.5%;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.item {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+}
+
+.delete-btn {
+  font-weight: bold;
+  border-color: black;
+  background-color: red;
+
+}
+
+.edit-btn {
+  font-weight: bold;
+  border-color: black;
+}
