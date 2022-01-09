@@ -29,6 +29,7 @@ function App() {
     axios.put(`/itemsIntake/${itemId}`, updates)
       .then(res => {
         setRecycledItems(prevItems => prevItems.map(item => item._id !== itemId ? item : res.data))
+        getItems();
       })
       .catch(err => console.log(err))
   }
